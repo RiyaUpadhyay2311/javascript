@@ -220,9 +220,3 @@
 
 
 // console.log(p.firstname= "hello");//set method calling
-
-
-
-
-
-
