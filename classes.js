@@ -220,3 +220,81 @@
 
 
 // console.log(p.firstname= "hello");//set method calling
+
+
+
+
+
+//Inheritance:- reusability of code ;; generalisation to specialization
+
+
+// class Vehicle{
+//   constructor(color, currentspeed, maxspeed){
+//     this.color = color;
+//     this.currentspeed = currentspeed;
+//     this.maxspeed=maxspeed;
+//   }
+
+//   move(){//methods without function 
+//     console.log("moving at:",this.currentspeed);
+//   }
+
+//   accelerate(amount){
+//     this.currentspeed+=amount;
+//   }
+
+
+// }
+
+// class Motorcycle extends Vehicle{
+//     constructor(color,currentspeed,maxspeed,fuel){
+//         super(color,currentspeed,maxspeed);//calss the constuctor of superclass
+//         this.fuel;
+//     }
+
+//     doWheelie(){
+//         console.log("driving on one wheel");
+//     }
+// }
+
+
+
+// let motor = new Motorcycle("Black",0,250,"gasoline");
+
+// console.log(motor.color);
+
+
+
+
+
+//PROTOTYPES can we create object explicitly
+
+
+
+// class Person{
+//                     constructor(firstname,lastname){
+//                         this.firstname = firstname;
+//                         this.lastname = lastname;
+//                     }
+                
+    
+
+// greet(){
+//     console.log("hii");
+// }
+// }
+
+
+// Person.prototype.introduce = function(){ //introduce is a variable  because function is a anonymous function
+//     console.log("hii,Im ",this.firstname);
+// };
+
+
+// Person.prototype.favoriteColor="green";
+
+
+// let p=new Person("maria","saga");
+// console.log(p.favoriteColor);
+// p.introduce();
+
+
