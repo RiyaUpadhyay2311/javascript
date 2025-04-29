@@ -180,6 +180,173 @@
 // let{lastName: name}=person;
 
 // console.log(name);
+//now it will not access through lastName
+
+
+// let name="GrurkulTheSecond";
+// //destructuring
+// let[a1,a2,a3,a4,a5]= name;
+
+// console.log(a1);
+
+
+
+
+
+// const fruits = ["Bananas","oranges","apples","mangoes"];
+
+// //destructuring
+
+// let[fruits1 , fruits2] = fruits;
+
+// console.log(fruits1);
+
+
+
+// const fruits = ["Bananas","oranges","apples","mangoes"];
+
+// //skipping
+
+// let[fruits1,,,fruits2]=fruits;
+
+// console.log(fruits);
+
+
+
+// const fruits = ["Bananas","oranges","apples","mangoes"];
+
+
+// let([0]:fruits1,[2]:fruits2) = fruits; 
+// console.log(fruits1,fruits2);
+
+
+
+//:::::::::::::::::::REST PROPERTY::::::::::::
+
+
+
+// const numbers=[10,20,30,40,50,60,70];
+
+
+// //destructuring by using rest operator
+
+// const[a,b,...rest] = numbers;//rest carry the array from 30 to 70
+
+
+// console.log(a,b,rest);
+
+
+
+
+
+
+
+
+
+// const fruits=new Map(
+//         [["apples",500],//key,value
+//         ["bananas",300],
+//         ["oranges",400]
+//     ]);
+
+
+//     //destruturing
+
+//     let text="";
+//     for(const[key,value]of fruits){
+//         text +=key +"is"+value;
+//     }
+
+
+
+// let firstName = "john";
+// let lastName = "Doe";
+
+// //swapping by destructuring 
+
+// [firstName,lastName]=[lastName,firstName];
+// console.log(firstName);
+
+
+
+//javascript exponent (**)
+
+
+// let x = 5;
+// let z = x**2;
+// console.log(z);
+
+
+
+
+
+//Math.pow(x,y)
+
+// let x = 5;
+// let z =Math.pow(x,2);
+// console.log(z);
+
+
+
+// let x=5;
+// x**=2;//here modification happens
+
+
+
+//ARRAY INCLUDES
+// const fruits = ["Bananas","Oranges","apples","Mango"];
+// fruits.includes("Mango");
+
+
+// //changing postion for searching
+//let x =  fruits.includes("Bananas",3);//false because it starting searching from 3rd position
+
+// console.log(x);
+
+//includes() methods is case sensitive
+
+
+//TRAILING COMMA :- in last
+
+
+
+// const arr = ["one","two","three",];
+//last one is trailing 
+// const arr = ["one","two","three",,];//will give 4 size because of 2 trailing comma creates an undefined
+
+
+
+
+// const sparseArray [1,,4,5,];
+
+
+// const person={
+//     firstName:"john",
+//     lastName:"Davis",
+//     age:30,
+// }
+//in onject cannot create sparse object it will give you a syntax error
+
+
+// const person={
+//         firstName:"john",
+//        ,
+//         age:30,
+//     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

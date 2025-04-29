@@ -18,7 +18,8 @@
 //      addTwoNumbers(...arr,...arr);//
 
 
-// function somefunction(para1,...para2){//for rest para meter 
+// function somefunction(para1,...para2){
+// //for rest para meter 
 //     console.log(para1,para2);
 // }
 // somefunction("hii","hello","bye");
@@ -47,6 +48,8 @@
 //  resultsArr.push(result);
 // }
 // console.log(resultArr);
+
+
 
 
 
