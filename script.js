@@ -251,9 +251,9 @@
 
 // setTimeout(youGot,1000);
 
-let testfun=function(){
-    console.log("hello");
-}();
+// let testfun=function(){
+//     console.log("hello");
+// }();
 
 
 // (
